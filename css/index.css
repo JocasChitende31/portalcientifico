@@ -1,0 +1,283 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.menu-btn {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #091434;
+}
+
+.nav-superior ul li a{
+    font-weight: normal; 
+    font-size: small;
+}
+.nav-superior ul li a,
+.nav-inferior ul li a {
+    letter-spacing: 0.1rem;
+
+}
+
+.nav-superior ul li a:hover,
+.nav-inferior ul li a:hover {
+    color: #0e6efb;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #0e6efb;
+    /* color: #6ab8dc; */
+}
+
+/* navbar-geral */
+.navbar-geral {
+    box-shadow: 1px 7px 20px rgb(250, 248, 248);
+}
+
+/* nav-superior */
+.nav-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4rem;
+}
+
+.nav-superior ul {
+    display: flex;
+}
+
+.nav-superior ul li {
+    margin-right: 1rem;
+    font-weight: bold;
+
+}
+
+.nav-superior ul li:last-child {
+    margin-right: 0;
+
+}
+
+/* divisão das navs */
+.divisao {
+    border-bottom: 1px solid whitesmoke;
+    margin: 0 4rem;
+}
+
+/* nav-inferior */
+.nav-inferior ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: inline-start;
+}
+
+.nav-inferior ul li {
+    padding: .4rem 1.3rem;
+}
+
+.nav-inferior ul li .submenu {
+    display: none;
+    position: absolute;
+
+
+}
+
+.nav-inferior ul li:hover>.submenu {
+    line-height: 3rem;
+    display: flex;
+    margin-left: -30rem;
+
+
+}
+
+.nav-inferior ul li .submenu li a {
+    padding: 1rem;
+    color: #282828;
+    font-weight: lighter;
+}
+
+.nav-inferior ul li .submenu li a:hover {
+    padding: 1rem;
+    color: rgba(2, 2, 75, 0.429);
+    font-weight: 100;
+}
+
+.nav-inferior ul li .submenu-2 {
+    display: none;
+    position: absolute;
+
+
+}
+
+.nav-inferior ul li:hover>.submenu-2 {
+    line-height: 3rem;
+    display: flex;
+    margin-left: -45rem;
+
+
+}
+
+.nav-inferior ul li .submenu-2 li a {
+    padding: 1rem;
+    color: #282828;
+    font-weight: lighter;
+}
+
+.nav-inferior ul li .submenu-2 li a:hover {
+    padding: 1rem;
+    color: rgba(2, 2, 75, 0.429);
+    font-weight: 100;
+}
+
+
+/* social */
+.social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 4rem;
+}
+
+.social a {
+    margin-top: -2.2rem;
+    margin-right: 1rem;
+}
+
+.social a:last-child {
+    margin-right: 0;
+}
+
+/* sobre */
+.sobre {
+    display: flex;
+
+    align-items: center;
+}
+
+.sobre i {
+    margin-right: 2rem;
+    font-size: 5rem;
+}
+
+.sobre p {
+    text-align: justify;
+}
+
+/* serviços */
+.servicos {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    /* box-shadow: 1px 7px 20px rgb(250, 248, 248); */
+}
+
+.servico {
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: 1px 7px 20px rgb(250, 248, 248);
+
+}
+
+
+.servico i {
+    font-size: 5rem;
+}
+
+
+
+/* Media Queries */
+@media (max-width:920px) {}
+
+@media (max-width:700px) {
+    .menu-btn {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 4rem;
+        padding: 1rem 0rem;
+    }
+
+    .nav-inferior ul {
+        position:absolute;
+        top: 7.2rem;
+        display: block;
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        transition: all 0.4s ease;
+        left: -100%;
+    }
+
+    .nav-inferior ul.open {
+        left: 0;
+    }
+    .nav-inferior ul li {
+        width: 100%;
+        /* border-bottom: 1px solid black; */
+    }
+    .nav-inferior ul li a{
+        margin: 0 2.5rem;
+    }
+
+    .social {
+        display: block;
+        align-items: center;
+        margin: 0 4rem;
+    }
+
+    .logo {
+        font-size: 1.7rem;
+        color: #0e6efb;
+        /* color: #6ab8dc; */
+    }
+
+    .nav-inferior ul li .submenu {
+        display: none;
+        position: absolute;
+    
+    
+    }
+    
+    .nav-inferior ul li:hover>.submenu {
+        display: block;
+        position: relative;
+        margin-top: -45rem; 
+    }
+    
+    .nav-inferior ul li .submenu li a {
+        margin-top:- 40px;
+        text-align: center;
+        padding: 1rem;
+        color: #282828;
+        font-weight: normal;
+    }
+    
+    .nav-inferior ul li .submenu li a:hover {
+        /* padding: 1rem; */
+        color: rgba(9, 9, 10, 0.429);
+        font-weight: 100rem;
+        z-index: -1000;
+    }
+    
+}
+
+@media (min-width:320px) and (max-width:500px){
+
+    .logo {
+        font-size: 1.5rem;
+        color: #0e6efb;
+        /* color: #6ab8dc; */
+    }
+    .nav-superior ul li a{
+        font-size: .5rem;
+    }
+}

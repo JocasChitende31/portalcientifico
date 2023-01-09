@@ -1,0 +1,17 @@
+.parceiros {
+   display: flex;
+   flex-wrap: wrap;
+
+    
+}
+.parceiros li{
+   padding: 0 .4rem;
+    
+}
+.parceiros li a{
+    color: #0e6efb;
+    font-weight: bold;
+    border-right: 1.5px solid black;
+    padding-right: 0.4rem;
+
+}

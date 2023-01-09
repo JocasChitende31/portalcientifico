@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prcAngolanas</title>
+    <link rel="stylesheet" href="css/bootstrapcss/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
+    <link rel="stylesheet" href="css/cards.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar-geral">
+        <div class="nav-superior">
+            <a href="index.html" class="logo">prcAngolanas</a>
+            <ul>
+                <li>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i></a> -->
+                    <a href="#" >Entrar</a>
+                </li>
+                <li>
+                    <!-- <a href="#"><i class="fa-solid fa-user-plus"></i></a> -->
+                    <a href="#">Registar</a>
+                </li>
+            </ul>
+        </div>
+        <div class="divisao"></div>
+        <div class="nav-inferior">
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars" onclick="menuShow()"></i>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Revistas</a>
+                    <ul class="submenu">
+                        <li><a href="#">Revista Científica do Portal 1</a></li>
+                        <li><a href="#">Revista Científica do Portal 2</a></li>
+                        <li><a href="#">Revista Científica do Portal 3</a></li>
+                        <li><a href="#">Revista Científica do Portal 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Sobre</a></li>
+
+                <li>
+                    <a href="#">Serviços</a>
+                    <ul class="submenu-2">
+                        <li><a href="#">Criação de Revistas e Artigos</a></li>
+                        <li><a href="#">Revisão de Revistas e Artigos</a></li>
+                        <li><a href="#">Hospedagem de Revistas e Artigos</a></li>
+                        <li><a href="#">Indexação de Revistas e Artigos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+
+        </div>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a href="#"> <i class="fab fa-youtube"></i></a>
+        </div>
+    </nav>
+    <!-- / -->
+    <!-- HOME -->
+
+    <!-- seccão revista -->
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Seja Bem-Vindo(a)</h3>
+                <p style="text-align: justify;"> Ao <b>prcAngolanas</b> (Portal de Revistas Cientificas
+                    Angolanas)... Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                    nesciunt corrupti explicabo?
+                    Expedita recusandae tenetur ut odio atque natus praesentium, vel accusamus nam illum dicta quidem,
+                    quibusdam deleniti, facilis officiis? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Deleniti quasi provident dolor soluta placeat laboriosam, eum voluptates ratione? Incidunt quidem
+                    provident error dignissimos in. Dolore obcaecati cupiditate eveniet consequuntur corporis?
+
+                </p>
+                <hr>
+            </div>
+            <div class="col-md-4 text-center">
+                <h3>Parceiros</h3>
+                <ul class="parceiros">
+                    <li><a href="#">UNITEL</a></li>
+                    <li><a href="#">BUKAapp</a></li>
+                    <li><a href="#">UJES</a></li>
+                    <li><a href="#">UNITEL</a></li>
+                    <li><a href="#">BUKAapp</a></li>
+                    <li><a href="#">GOVANGOLA</a></li>
+                    <li><a href="#">UNI ANTÓNIO AGOSTINHO NETO</a></li>
+                    <li><a href="#">MIN DA CIÊNCIA E TECNOLOGIA</a></li>
+                    <li><a href="#">TECserviços</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- / -->
+
+    <section class="container mb-5">
+        <div class="row">
+            <!-- Carousel-Revistas em Destaque -->
+            <div class="col-md-6">
+                <h3>Revistas em Destaque</h3>
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.comecso.com/wp-content/uploads/2020/11/portada-2-1-422x550.jpg"
+                                class="d-block w-100" alt="...">
+                            <!-- <img src="https://source.unsplash.com/random/500x520" class="d-block w-100" alt="..."> -->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://www.anpocs.com/images/stories/boletim/anpocs_comunica/2021-05-Revistas-cientificas.jpeg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://1.portalpensador.com/wp-content/uploads/2021/07/Inaugural.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://1.portalpensador.com/wp-content/uploads/2021/08/Revista-Olhar-Cientifico-Ideia-Final-27.1_Easy-Resize.com_.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- / -->
+            <!-- Sítese d Revista de Destaque -->
+            <div class="col-md-2">
+                <h3>Síntese</h3>
+                <p style="text-align: justify;">
+                    <b>Revista Cientifica do Portal## </b> ipsum dolor, sit amet consectetur adipisicing elit. Quasi ab
+                    exercitationem velit eligendi
+                    aliquam, deserunt saepe rerum totam repellat cumque pariatur quam. Incidunt et voluptatibus
+                    asperiores maxime odio fuga ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum
+                    commodi quis neque dicta voluptate voluptatum eum pariatur quod cumque aperiam eos soluta,
+                    provident, dolorem minima animi quaerat et doloribus. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Aspernatur, aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste, quidem!
+                    <a href="#" style="color:#0e6efb;">Ler Mais...</a>
+                </p>
+            </div>
+            <!-- / -->
+            <!-- Lista das Revistas em Destque -->
+            <div class="col-md-4">
+                <h3>Lista de Revistas em Destaque</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="#" style="color:#0e6efb;"><b class="card-title">Revista Cientifica do Portal 1</b></a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Número:</b> 1.#</li>
+                        <li class="list-group-item"><b>Ano de publicação:</b> 2k22</li>
+                        <li class="list-group-item"><b>Contribuições:</b> Prof. Felizardo Costa e Colegas</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="#" style="color:#0e6efb;"><b class="card-title">Revista Cientifica do Portal 2</b></a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Número:</b> 3.0.#</li>
+                        <li class="list-group-item"><b>Ano de publicação:</b> 2k16 </li>
+                        <li class="list-group-item"><b>Contribuições:</b> Grupo de Estudantes da UAN </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="#" style="color:#0e6efb;"><b class="card-title">Revista Cientifica do Portal 3</b></a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"> <b>Número:</b> 2.#.#</li>
+                        <li class="list-group-item"><b>Ano de publicação:</b>2k18</li>
+                        <li class="list-group-item"><b>Contribuições:</b> Profs da Unibelas e Univ Cátolica </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="#" style="color:#0e6efb;"><b class="card-title">Revista Cientifica do Portal 4</b></a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Número:</b> 1.#.#</li>
+                        <li class="list-group-item"><b>Ano de publicação:</b> 2k20 </li>
+                        <li class="list-group-item"><b>Contribuiçãoes:</b> Jeorgel Chi, Alhures Chi e UJES</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- / -->
+
+        </div>
+    </section>
+    <!-- Outras Revistas -->
+    <section class="container mb-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Outras Revistas</h3>
+                <di class="cards">
+                    <div class="card_">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1616687551818-a9218cddd2dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="..." class="card__imagem">
+                        </a>
+                        <div class="card__content">
+                            <p><a href="#"><b>Outras Revistas do Portal 5</b></a>, dolor sit amet consectetur
+                                adipisicing
+                                elit. Animi nemo unde doloribus ratione,
+                                velit dolore ducimus aut excepturi distinctio fugiat corrupti totam, debitis provident
+                                amet
+                                facere quas obcaecati neque commodi...</p>
+                        </div>
+                        <div class="card__info">
+                            <div>
+                                <b>Publicada há:</b>
+                                <script>document.write(new Date().getMonth() + 2)</script> <i>anos</i>
+                            </div>
+                            <div>
+                                <a href="" class="card__link">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1583082564819-d63aa333c2a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="..." class="card__imagem">
+                        </a>
+                        <div class="card__content">
+                            <p><a href="#"><b>Outras Revistas do Portal 5</b></a>, dolor sit amet consectetur
+                                adipisicing
+                                elit. Animi nemo unde doloribus ratione,
+                                velit dolore ducimus aut excepturi distinctio fugiat corrupti totam, debitis provident
+                                amet
+                                facere quas obcaecati neque commodi...</p>
+                        </div>
+                        <div class="card__info">
+                            <div>
+                                <b>Publicada há:</b>
+                                <script>document.write(new Date().getDay() + 5)</script> <i>meses</i>
+                            </div>
+                            <div>
+                                <a href="" class="card__link">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1560976813-ada548d0079c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxpdnJvc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="..." class="card__imagem">
+                        </a>
+                        <div class="card__content">
+                            <p><a href="#"><b>Outras Revistas do Portal 5</b></a>, dolor sit amet consectetur
+                                adipisicing
+                                elit. Animi nemo unde doloribus ratione,
+                                velit dolore ducimus aut excepturi distinctio fugiat corrupti totam, debitis provident
+                                amet
+                                facere quas obcaecati neque commodi...</p>
+                        </div>
+                        <div class="card__info">
+                            <div>
+                                <b>Publicada há:</b>
+                                <script>document.write(new Date().getMonth() + 10)</script> <i>meses</i>
+                            </div>
+                            <div>
+                                <a href="" class="card__link">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1631683950559-081448b667e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                alt="..." class="card__imagem">
+                        </a>
+                        <div class="card__content">
+                            <p><a href="#"><b>Outras Revistas do Portal 5</b></a>, dolor sit amet consectetur
+                                adipisicing
+                                elit. Animi nemo unde doloribus ratione,
+                                velit dolore ducimus aut excepturi distinctio fugiat corrupti totam, debitis provident
+                                amet
+                                facere quas obcaecati neque commodi...</p>
+                        </div>
+                        <div class="card__info">
+                            <div>
+                                <b>Ano:</b>
+                                <script>document.write(new Date().getFullYear())</script>
+                            </div>
+                            <div>
+                                <a href="" class="card__link">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJvb2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                alt="..." class="card__imagem">
+                        </a>
+                        <div class="card__content">
+                            <p><a href="#"><b>Outras Revistas do Portal 5</b></a>, dolor sit amet consectetur
+                                adipisicing
+                                elit. Animi nemo unde doloribus ratione,
+                                velit dolore ducimus aut excepturi distinctio fugiat corrupti totam, debitis provident
+                                amet
+                                facere quas obcaecati neque commodi...</p>
+                        </div>
+                        <div class="card__info">
+                            <div>
+                                <b>Ano:</b>
+                                <script>document.write(new Date().getFullYear())</script>
+                            </div>
+                            <div>
+                                <a href="" class="card__link">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_">
+                        <a href="#">
+                            <!-- <img src="https://unsplash.com/s/photos/article" alt="..." class="card__imagem"> -->
+                            <img src="https://images.unsplash.com/photo-1511108690759-009324a90311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="..." class="card__imagem">
+                        </a>
+                        <div class="card__content">
+                            <p><a href="#"><b>Outras Revistas do Portal 5</b></a>, dolor sit amet consectetur
+                                adipisicing
+                                elit. Animi nemo unde doloribus ratione,
+                                velit dolore ducimus aut excepturi distinctio fugiat corrupti totam, debitis provident
+                                amet
+                                facere quas obcaecati neque commodi...</p>
+                        </div>
+                        <div class="card__info">
+                            <div>
+                                <b>Ano:</b>
+                                <script>document.write(new Date().getFullYear())</script>
+                            </div>
+                            <div>
+                                <a href="" class="card__link">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </di>
+                <hr>
+            </div>
+        </div>
+    </section>
+    <!-- / -->
+    <!-- seccão sobre -->
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 ">
+                <h3>Sobre</h3>
+                <hr>
+                <div class="sobre">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nemo exercitationem repellendus
+                        quae
+                        quaerat ratione, dolorem aliquid ducimus ab ullam voluptatem reiciendis illo nobis molestiae vel
+                        maxime maiores sint rerum!</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h3>Serviços</h3>
+                <hr>
+                    <div class="servicos" >
+                        <div class="servico">
+                            <a href="#">
+                                <i class="fa-solid fa-newspaper"></i>
+                                <p>Criação de Revista & Artigos</p>
+                            </a>
+                        </div>
+    
+                        <div class="servico">
+                            <a href="#">
+                                <i class="fa-sharp fa-solid fa-check-to-slot"></i>
+                                <p>Revisão de Revista & Artigos</p>
+                            </a>
+                        </div>
+                        <div class="servico">
+                            <a href="#">
+                                <i class="fa-solid fa-server"></i>
+                                <p>Hospedagem de Revistas & Artigos</p>
+                            </a>
+                        </div>
+                        <div class="servico">
+                            <a href="#">
+                                <i class="fa-sharp fa-solid fa-arrow-down-1-9"></i>
+                                <p>Indexação de Revista & Artigos</p>
+                            </a>
+                        </div>
+                    </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- / -->
+
+    <!-- / -->
+
+    <!-- formulário de novidades -->
+    <section class=" sec-footer section-subscribe bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12">
+                    <h4 class="heading">NOVIDADES</h4>
+                    <div class="col-md-12">
+                        <form action="" method="post">
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <input type="text" placeholder="digite seu nome aqui" class="form-control">
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <input type="email" placeholder="digite seu email aqui" class="form-control">
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <input type="submit" value="subscrever" class="btn btn-secondary w-100">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / -->
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row mb-1">
+                <div class="col-md-3 mb-3">
+                    <h4>Sobre Nós</h4>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vel
+                        at quidem recusandae soluta, in dignissimos perspiciatis suscipit nobis illo! Harum, dolorem.
+                        Similique voluptates tempore, provident ea, omnis quos corrupti maxime adipisci id, ratione
+                        reprehenderit.</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h4>Contactos &amp; Endereços</h4>
+                    <ul class="list-unstyled footer-link">
+                        <p style="font-weight:bold; color:#6ab8dc;" class="mb-1">LUANDA</p>
+                        <li class="d-flex mb-1">
+                            <span class="me-3">
+                                <fa-icon [icon]="faHomeAlt"></fa-icon>
+                            </span><span class="text-white">Urbanização Nova Vida Rua: ##, Ap:#.#</span>
+                        </li>
+                        <p style="font-weight:bold; color:#6ab8dc;" class="mb-1">TELEFONE</p>
+                        <li class="d-flex mb-1">
+                            <span class="me-3">
+                                <fa-icon [icon]="faTelefone"></fa-icon>
+                            </span><span class="text-white">(+244) 933 728 098</span>
+                        </li>
+                        <p style="font-weight:bold; color:#6ab8dc;" class="mb-1">Email</p>
+                        <li class="d-flex mb-1">
+                            <span class="me-3">
+                                <fa-icon [icon]="faEmail" class="me-3"></fa-icon>
+                            </span> <span class="text-white"><a href="joshtende03@gmail.com"
+                                    target="_blank">joshtende03@gmail.com</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h4>Links Rápidos</h4>
+                    <ul class="list-unstyled footer-link">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Revistas</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h4 class="text-center">Redes Sociais</h4>
+                    <div class="btn-group-vertical btn-block w-100 footer-social" role="group">
+                        <a href="#" class="btn btn-outline-primary">Facebook</a>
+                        <a href="#" class="btn btn-outline-success">Twiter</a>
+                        <a href="#" class="btn btn-outline-danger">Youtube</a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h4>Idiomas</h4>
+                    <ul class="list-unstyled footer-link d-block ">
+                        <li><a href="#">Español</a></li>
+                        <li><a href="#">Inglês</a>
+                        </li>
+                        <li><a href="#">Português</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <p style="text-align: center; margin-bottom: 0;">&copy; Todos os Direitos Reservados - <i
+                        style="font-style: normal; font-weight: lighter;">UnitelCode: Jeorgel Chitende</i> -
+                    <script>document.write(new Date().getFullYear())</script>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrapjs/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
