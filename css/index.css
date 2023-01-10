@@ -177,7 +177,7 @@ a {
 .servicos {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     /* box-shadow: 1px 7px 20px rgb(250, 248, 248); */
 }
 
@@ -185,13 +185,24 @@ a {
     text-align: center;
     padding: 1.5rem 2rem;
     box-shadow: 1px 7px 20px rgb(250, 248, 248);
+    transition: 0.5s all ease-in;
 
+}
+.servico:hover {
+    transform: scale(1.05);
 }
 
 
 .servico i {
-    font-size: 5rem;
+    font-size: 4rem;
 }
+.carrousel-img img{
+    width: 100%;
+}
+.carrousel-img img:hover{
+    opacity: .88;
+}
+
 
 
 
