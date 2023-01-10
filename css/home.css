@@ -15,3 +15,11 @@
     padding-right: 0.4rem;
 
 }
+.dados-portal h4{
+   transition: .4s all ease-in;
+   cursor: pointer;
+   display: block;
+}
+.dados-portal h4:hover{
+   transform: scale(1.08);
+}
