@@ -30,7 +30,7 @@ a {
 
 .nav-superior ul li a:hover,
 .nav-inferior ul li a:hover,
-.nav-inferior ul li a:focus-visible {
+.nav-inferior ul li a.active {
     color: #0e6efb;
 }
 
@@ -112,7 +112,8 @@ a {
     font-size: .9rem;
 }
 
-.nav-inferior ul li .submenu li a:hover {
+.nav-inferior ul li .submenu li a:hover,
+.nav-inferior ul li .submenu li a.active2 {
     padding: 1rem;
     color: rgba(2, 2, 75, 0.429);
     font-weight: 100;
