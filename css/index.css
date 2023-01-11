@@ -99,9 +99,9 @@ a {
     line-height: 3rem;
     display: flex;
     /* margin-left: -30.8rem; */
-    margin-left: -476.5px;
-    background-color: aliceblue;
-    width: 100%;
+    margin-left: -436.5px;
+    background-color: white;
+    /* width: 100%; */
 
 }
 
@@ -128,10 +128,10 @@ a {
 .nav-inferior ul li:hover>.submenu-2 {
     line-height: 3rem;
     display: flex;
-    margin-left: -700px;
+    margin-left: -690px;
     /* margin-left: -44rem; */
-    background-color: aliceblue;
-    width: 100%;
+    background-color: white;
+    /* width: 100%; */
 }
 
 .nav-inferior ul li .submenu-2 li a {
