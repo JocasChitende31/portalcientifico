@@ -1,0 +1,26 @@
+.img-h-79 {
+    height: 100%;
+    margin-bottom: -10rem;
+}
+
+.conteudo-portal {
+    text-align: justify;
+}
+
+.col-md-6 p,
+.col-md-12 p {
+    text-align: justify;
+}
+
+h3 {
+    text-align: right;
+    margin-left: -150px;
+}
+
+@media (max-width:700px) {
+    h3 {
+        text-align: center;
+        margin-left: 0px;
+
+    }
+}

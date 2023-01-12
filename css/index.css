@@ -44,7 +44,9 @@ a {
 .navbar-geral {
     box-shadow: 1px 7px 20px rgb(250, 248, 248);
 }
-
+.user-mobile{
+    display: none;
+}
 /* nav-superior */
 .nav-superior {
     display: flex;
@@ -99,7 +101,7 @@ a {
     line-height: 3rem;
     display: flex;
     /* margin-left: -30.8rem; */
-    margin-left: -436.5px;
+    margin-left: -300px;
     background-color: white;
     /* width: 100%; */
 
@@ -112,10 +114,14 @@ a {
     font-size: .9rem;
 }
 
-.nav-inferior ul li .submenu li a:hover,
-.nav-inferior ul li .submenu li a.active2 {
+.nav-inferior ul li .submenu li a:hover {
     padding: 1rem;
     color: rgba(2, 2, 75, 0.429);
+    font-weight: 100;
+}
+.nav-inferior ul li .submenu li a.active2 {
+    padding: 1rem;
+    color: #0e6efb;
     font-weight: 100;
 }
 
@@ -226,7 +232,7 @@ a {
     .menu-btn {
         display: flex;
         justify-content: flex-end;
-        margin: 0 4rem;
+        margin: 0 2rem;
         padding: 1rem 0rem;
         font-size: larger;
     }
@@ -234,9 +240,19 @@ a {
         margin: 0 2rem;
     }
     .logo {
-        font-size: 1.9rem;
+        font-size: 2rem;
         color: #0e6efb;
         /* color: #6ab8dc; */
+    }
+    .user-desktop{
+        display: none;
+    }
+    .user-mobile{
+        display: flex;
+        
+    }
+    .user-mobile i{
+      font-size: .7rem;  
     }
     .divisao {
         margin: 0 2rem;
@@ -265,7 +281,7 @@ a {
         /* border-bottom: 1px solid black; */
     }
     .nav-inferior ul li a{
-        margin: 0 0.5rem;
+        margin: 0 0.9rem;
     }
     .nav-inferior ul li {
         padding: .2rem 1rem;
@@ -276,7 +292,7 @@ a {
     .social {
         display: block;
         align-items: center;
-        margin: 0 1.3rem;
+        margin: 0 2rem;
     }
 
    
@@ -287,8 +303,7 @@ a {
     
     
     }
-    .nav-inferior ul li:hover>.submenu,
-    .nav-inferior ul li:focus {
+    .nav-inferior ul li:hover>.submenu {
         line-height: 1.3rem;
         display: block;
         position: sticky;
