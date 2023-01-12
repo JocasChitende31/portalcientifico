@@ -242,6 +242,7 @@ a {
     .logo {
         font-size: 2rem;
         color: #0e6efb;
+        font-weight:450;
         /* color: #6ab8dc; */
     }
     .user-desktop{
@@ -255,7 +256,9 @@ a {
       font-size: .7rem;  
     }
     .divisao {
+        border-bottom: 2px solid whitesmoke;
         margin: 0 2rem;
+
     }
     .nav-inferior ul {
         position:absolute;
