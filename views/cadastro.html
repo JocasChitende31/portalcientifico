@@ -22,14 +22,14 @@
             <ul>
                 <li>
                     <!-- <a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i></a> -->
-                    <a href="login.html" class="user-desktop active-d">Entrar</a>
-                    <a href="login.html" class="user-mobile active-m"><i class="fa-solid fa-right-to-bracket"></i></a>
+                    <a href="login.html" class="user-desktop">Entrar</a>
+                    <a href="login.html" class="user-mobile"><i class="fa-solid fa-right-to-bracket"></i></a>
 
                 </li>
                 <li>
                     <!-- <a href="#"><i class="fa-solid fa-user-plus"></i></a> -->
-                    <a href="cadastro.html" class="user-desktop">Registar</a>
-                    <a href="cadastro.html" class="user-mobile"> <i class="fa-solid fa-user-plus"></i></a>
+                    <a href="cadastro.html" class="user-desktop active-d">Registar</a>
+                    <a href="cadastro.html" class="user-mobile active-m"> <i class="fa-solid fa-user-plus"></i></a>
                 </li>
             </ul>
         </div>
@@ -76,29 +76,48 @@
         <div class="row row-1 justify-content-center">
             <div class="col-xs-12 col-md-6">
                 <div class="login-icon mb-3">
-                    <!-- <i class="fa-solid fa-user-tie"> -->
-                    <i class="fa-solid fa-right-to-bracket">
-                    </i></div>
-                    <h5 class="text-center">Por favor, Inicie sua Sessão!</h5>
-                    <hr>
+                    <i class="fa-solid fa-user-plus">
+                    </i>
+                </div>
+                <h5 class="text-center">Seja Bem-Vindo(a). Cadastra-te Aqui!</h5>
+                <hr>
                 <form>
-                    <div class="form-group">
-                        <label for="nome-utilizador" class="mb-1">Nome ou email do utilizador</label>
-                        <input type="text" id="nome-utilizador" class="form-control" ngModel name="nome-utilizador" required>
+                    <div class="form-group d-flex">
+                        <div>
+                            <label for="primeiro-nome" class="mb-1">Nome</label>
+                            <input type="text" id="primeiro-nome" class="form-control" ngModel name="primeiro-nome"
+                                placeholder="Primeiro nome" required>
+                        </div>
+                        <div>
+                            <label for="ultimo-nome" class="mb-1">Sobrenome</label>
+                            <input type="text" id="ultimo-nome" class="form-control" ngModel name="ultimo-nome"
+                                placeholder="Último nome" required>
 
+                        </div>
                     </div>
-
                     <div class="form-group mt-4">
-                        <label for="palavra-passe" class="mb-1">Palavra-passe</label>
-                        <input type="password" id="palavra-passe" class="form-control" ngModel name="email" required email>
-                    </div>
+                        <label for="email" class="mb-1">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Digite seu email" required>
 
-                    <button class="btn btn-primary mt-3" type="submit" >Entrar</button>
+                    </div>
+                    <div class="form-group mt-4">
+                        <label for="palavra-passe" class="mb-1">Defina a sua palavra-passe</label>
+                        <input type="password" id="palavra-passe" class="form-control" name="palavra-passe"
+                            placeholder="Palavra-passe" required email>
+                    </div>
+                    <div class="form-group mt-4 mb-3">
+                        <label for="confirmar-passe" class="mb-1">Confirme a Palavra-passe</label>
+                        <input type="password" id="confirmar-passe" class="form-control" name="confirmar-passe"
+                            placeholder="Confirmar palavra-passe" required email>
+                    </div>
+                    <hr>
+                    <p class="text-danger"><b>Nota:</b> sua palavra-passe deve conter pelo menos 10 ou mais
+                        caracteres <i>"maiúsculos e . , ! - _ @"</i> para que seja segura!</p>
+                    <hr>
+                    <button class="btn btn-primary mt-2" type="submit">Cadastrar</button>
 
                     <div>
-                        <hr class="text-primary">
-                        <a href="#" class="btn btn-link" style="text-decoration: none;" ><h5 class="text-center ">Esqueceu a sua Palavra-passe ?</h5></a>
-                        <hr class="text-primary">
+
                     </div>
                 </form>
             </div>
