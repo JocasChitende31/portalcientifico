@@ -1,0 +1,26 @@
+.mag-g{
+    margin: 5.5rem 0rem 5.5rem 5rem;
+}
+.row .col-xs-12{
+    box-shadow: 1px 7px 20px rgb(236, 234, 234);
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 10px;
+}
+.btn{
+    width: 100%;
+}
+.active-d{
+    color: #0e6efb;
+}
+.active-m{
+    color: #0e6efb;
+}
+.login-icon {
+    text-align: center;
+    font-size: 3rem;
+}
+@media (max-width:700px) {
+    .mag-g{
+        margin: 3rem 0rem 3rem 0rem;
+    }
+}
