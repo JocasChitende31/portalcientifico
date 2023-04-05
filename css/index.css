@@ -139,7 +139,7 @@ a {
     /* margin-left: -44rem; */
     background-color: white;
     /* width: 100%; */
-}
+} 
 
 .nav-inferior ul li .submenu-2 li a {
     padding: 1rem;
@@ -289,6 +289,7 @@ a {
     .nav-inferior ul li {
         padding: .2rem 1rem;
     }
+    
     .nav-inferior ul li i {
         margin-left: 0.1rem;
     }
@@ -299,12 +300,10 @@ a {
     }
 
    
-
     .nav-inferior ul li .submenu {
         display: none;
         /* position:static; */
-    
-    
+        border-bottom: 1px solid red;
     }
     .nav-inferior ul li:hover>.submenu {
         line-height: 1.3rem;
@@ -314,7 +313,6 @@ a {
         background-color: white;
         width: 100%;
         height: 110px;
-
     }
     .nav-inferior ul li .submenu li a {
         padding: 1rem;

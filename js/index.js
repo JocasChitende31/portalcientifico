@@ -1,4 +1,4 @@
-var ul = document.querySelector('.nav-inferior ul');
+ var ul = document.querySelector('.nav-inferior ul');
 var menuBtn = document.querySelector('.menu-btn i');
 
 function menuShow(){
